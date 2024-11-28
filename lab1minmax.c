@@ -2,16 +2,15 @@
 int main()
 {
 	int n1;
+	scanf("%d", &n1);
 	int n2;
-	printf("n1 n2\n");
-	scanf("%d" "%d", &n1, &n2);
-
+	scanf("%d", &n2);
 	if (n1>n2){
-		printf("num1 greater than num2 by ");
+		printf("n1 greater than n2 by ");
 		printf("%d",n1-n2);	
 	}
 	else{
-		printf("num2 greater than num1 by ");
+		printf("n2 greater than n1 by ");
 		printf("%d",n2-n1);	
 	}
 }
